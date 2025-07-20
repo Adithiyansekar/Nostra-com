@@ -6,6 +6,6 @@ This project helped me understand how to organize code, fix bugs, and implement 
 
 ## 📂 Live Demo & Repository
 🔗 [Live Demo]()  
-📁 [Repository]()
+📁 [Repository](https://github.com/Adithiyansekar/Nostra-com)
 🔗 [LinkedIn](https://www.linkedin.com/posts/adithiyansekar_proud-to-share-my-latest-mini-project-a-activity-7350202350344560640-nWNC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEF4hAMB_41vuXeThGa97Ppt8OOXkfhmKKo)
 
