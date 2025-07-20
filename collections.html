@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections-Nostra</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="collection.css">
+
+
+</head>
+
+<body class="font-sans">
+
+    
+
+    <!-- header -->
+     <div class="header">
+      <div class="header__nostra">Nostra</div>
+      <nav class="header__nav">
+        <a href="index.html" class="header__nav-link">Home</a>
+        <a href="index.html" class="header__nav-link">New Arrival</a>
+        <a href="index.html" class="header__nav-link">Most Wanted</a>
+        <!-- <a href="collections.html" class="header__nav-link">Collections</a> -->
+        <a href="contact.html" class="header__nav-link">Contact Us</a>
+      </nav>
+    </div>
+
+    <!-- sideNavbar -->
+
+    <!-- <div id="sidebar"
+        class="grid grid-flow-row gap-5 bg-gray-800 fixed z-50 p-5 top-0 text-white text-center transition-all duration-1000 lg:hidden"
+        style="width: 40%; height: 40vh; right: -40%;">
+        <div id="close" class="text-right cursor-pointer">
+            <p>X</p>
+        </div>
+        <p class="cursor-pointer hover:underline"><a href="index.html">Home</a></p>
+        <p class="cursor-pointer hover:underline"><a href="collection.html">Collections</a></p>
+        <p class="cursor-pointer hover:underline"><a href="contact.html">Contact Us</a></p>
+    </div> -->
+
+    <!-- Collections -->
+
+    <div class="grid grid-flow-col justify-start items-start p-2 mt-2 mb-10">
+        <div class="grid grid-flow-row gap-5 p-2 md:pr-14 lg:pr-32 w-full">
+            <div>
+                <h1 class="font-bold text-xs md:text-lg lg:text-3xl">Genders</h1>
+                <div class="w-full pt-2 md:pt-5">
+                    <div>
+                        <input type="checkbox" value="Summer" id="Summer">
+                        <label for="Summer" class="text-xs md:text-lg lg:text-2xl">Mens</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="Party" id="Party">
+                        <label for="Party" class="text-xs md:text-lg lg:text-2xl">Womens</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="Beach" id="Beach">
+                        <label for="Beach" class="text-xs md:text-lg lg:text-2xl">Kids</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="Beach" id="Beach">
+                        <label for="Beach" class="text-xs md:text-lg lg:text-2xl">New Born</label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 class="font-bold text-xs md:text-lg lg:text-3xl">Occasions</h1>
+                <div class="w-full pt-2 md:pt-5">
+                    <div>
+                        <input type="checkbox" value="Red" id="Red">
+                        <label for="Red" class="text-xs md:text-lg lg:text-2xl">Formal</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="White" id="White">
+                        <label for="White" class="text-xs md:text-lg lg:text-2xl">Party</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="Blue" id="Blue">
+                        <label for="Blue" class="text-xs md:text-lg lg:text-2xl">Casual</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="Green" id="Green">
+                        <label for="Green" class="text-xs md:text-lg lg:text-2xl">watch</label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 class="font-bold text-xs md:text-lg lg:text-3xl">Category</h1>
+                <div class="w-full pt-2 md:pt-5">
+                    <div>
+                        <input type="checkbox" value="Old" id="Old">
+                        <label for="old" class="text-xs md:text-lg lg:text-2xl">Jeans</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="New" id="New">
+                        <label for="New" class="text-xs md:text-lg lg:text-2xl">Watches</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="Shoe" id="Shoe">
+                        <label for="Shoe" class="text-xs md:text-lg lg:text-2xl">Shoes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="Saree" id="Saree">
+                        <label for="Saree" class="text-xs md:text-lg lg:text-2xl">Sarees</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pl-5 border-l-4 border-black w-full max-w-xl-2xl">
+            <div
+                class="grid grid-flow-col justify-between items-center border-2 border-black p-2 mr-2 rounded-xl w-full" for="search">
+                <input type="text" id="search" placeholder="search" class="focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 w-6" for="search">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+            </div>
+
+            <div id="Products">
+                <div class="grid grid-cols-3 overflow-x-auto gap-3 md:gap-3 p-4">
+                    <div>
+                        <img src="./images/Men casual 1.jpg" alt="" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Mens winter suit</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,499 <del>2,299</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/Men casual 2.jpg" alt="" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Mens casual set</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,699 <del>2,499</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/Men casual 3.jpg" alt="" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Mens party wear</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹799 <del>1,199</del></p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 overflow-x-auto gap-3 md:gap-3 p-4">
+                    <div>
+                        <img src="./images/Men hoodie.jpg" alt="" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Mens hoodie</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,119 <del>1,699</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/Men jacket 1.jpg" alt="" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Mens jacket</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹999 <del>1,399</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/Men overcoat 1.jpg" alt="Overcoat1" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Mens bussiness overcoat</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹3,999 <del>4,999</del></p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 overflow-x-auto gap-3 md:gap-3 p-4">
+                    <div>
+                        <img src="./images/Men overcoat 2.jpg" alt="Overcoat 2" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Mens casual overcoat</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹2,399 <del>3,199</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/Men shirt 1.jpg" alt="mens shirt1" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Mens white half-sleeve shirt</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,399 <del>1,899</del></p>
+                    </div>
+                 
+                    <div>
+                        <img src="./images/Men shoe 2.jpg" alt="Mens shoe2" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Mens formal brown shoe</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,999 <del>2,599</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/Men shoe 3.jpg" alt="Mens shoe3" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Mens formal black shoe</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,899 <del>2,449</del></p>
+                    </div>
+
+                    <div>
+                        <img src="./images/Men watch 2.jpg" alt="Mens watch 1" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Mens leather watch</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,899 <del>2,299</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/Men watch 3.jpg" alt="Mens watch2" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Mens casual watch</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹2,399 <del>2,799</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/Men watch 4.jpg" alt="Mens watch3" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Mens automatic watch</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹29,999 <del>34,999</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/Men watch 6.jpg" alt="Mens watch4" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Mens black watch</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹3,999 <del>4,999</del></p>
+                    </div>
+                    <!-- <div>
+                        <img src="./images/Men watch 7.jpg" alt="Mens shoe3" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Mens party watch</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹2399 <del>2999</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/Men watch 9.jpg" alt="Mens shoe3" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Mens party watch</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹3199 <del>3499</del></p>
+                    </div> -->
+
+                    <div>
+                        <img src="./images/women baggy jeans 1.jpg" alt="Womens baggy jean1" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens baggy jean</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,299 <del>1,699</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/women baggy jeans 2.jpg" alt="Womens baggy jean2" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens baggy jean</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,199 <del>1,399</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/women baggy jeans 3.jpg" alt="Womens baggy jean3" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens baggy jean</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,099 <del>1,499</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/women light 2.jpg" alt="Womens light2" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens premium white shirt</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,999 <del>2,799</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/women light 3.jpg" alt="Womens light3" class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens casual shirt</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,299 <del>1,799</del></p>
+                    </div>
+                    
+                    <div>
+                        <img src="./images/women saree 1.jpg" alt="Womens saree1 " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens silk saree</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹5,999 <del>6,499</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/women saree 2.jpg" alt="Womens saree2 " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens purple saree</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,999 <del>2,499</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/women overcoat 1.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens casual shirt</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,299 <del>1,799</del></p>
+                    </div>
+                                   
+                    <div>
+                        <img src="./images/women shoe 3.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens black cat paws</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹2,199 <del>2,999</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/women shoe 1.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens diwali shoe</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹3,299 <del>3,799</del></p>
+                    </div>
+                
+                    <div>
+                        <img src="./images/women watch 2.jpg" alt="Womens watch1 " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens office watch</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹2,299 <del>3,199</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/women watch 3.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens steel watch</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,499 <del>2,199</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/women watch 4.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens glory watch</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹2,299 <del>2,799</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/women watch 5.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens gold watch</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹2,699 <del>3,199</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/women watch 6.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens pinkish watch</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹3,199 <del>3,999</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/women watch 7.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens touch watch</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹3,099 <del>3,799</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/women watch 8.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens premium watch</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹2,399 <del>2,599</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/women watch 9.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens CEO watch</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹2,899 <del>3,299</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/boy 2.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Superman dress</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,699 <del>2,199</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/boy 3.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Funland dress</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹799 <del>1,299</del></p>
+                    </div>
+                    
+                    <div>
+                        <img src="./images/girl kid 2.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Girl kk combo</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,999 <del>2,499</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/girl kid 3.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Casual wear</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹799 <del>1,299</del></p>
+                    </div>
+                    <!-- <div>
+                        <img src="./images/boy 1.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Womens CEO watch</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹2,899 <del>3,299</del></p>
+                    </div> -->
+                    <div>
+                        <img src="./images/girl kid 1.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl"></h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹599 <del>999</del>Pink island dress</p>
+                    </div>
+                    
+                    <div>
+                        <img src="./images/bb dress 2.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Angel white</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹399 <del>499</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/bb dress 3.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Sandal dress</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹699 <del>999</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/bb shoe 1.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Pink BB shoe</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹899 <del>1,199</del></p>
+                    </div>
+                    <div>
+                        <img src="./images/bb shoe 2.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Green dutch leather shoe</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹1,200 <del>1,500</del></p>
+                    </div>
+
+                    <div>
+                        <img src="./images/bb shoe 3.jpg" alt="Womens " class="w-full">
+                        <h1 class="font-bold text-xs md:text-lg lg:text-2xl">Floppy shoes</h1>
+                        <p class="text-xs md:text-lg lg:text2xl">₹999 <del>1,399</del></p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- News letter -->
+    <section class="text-center">
+      <div>
+        <h1 class="font-bold mt-5 text-3xl">Join our News Letter</h1>
+        <p class="text-center">
+          Signup for our newspaper to get exclusive discounts, updates, and more
+        </p>
+
+        <form onsubmit="return validateEmail()" novalidate>
+          <input
+            type="email"
+            id="emailInput"
+            class="border border-black p-2 m-3"
+            style="width: 40%"
+            placeholder="Enter your email"
+            required
+          />
+          <br />
+          <button type="submit" class="bg-black text-white p-3 m-1">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </section>
+
+
+    <!-- footer -->
+    <Footer class="bg-gray-900 text-white p-10 flex flex-col gap-5 mt-3">
+        <h1 class="">Nostra</h1>
+        <p class="">The Standard chunk of Lorem ipsum used since the 1500s is
+            reprodused below for those
+            interest
+        </p>
+        <div class="m-2 p-4 flex justify-start items-center gap-14">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                class="w-3 md:w-5 lg:w-7"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                <path fill="#ffffff"
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                class="w-3 md:w-5 lg:w-7"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                <path fill="#ffffff"
+                    d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+            </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                class="w-3 md:w-5 lg:w-7"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                <path fill="#ffffff"
+                    d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
+            </svg>
+            
+        </div>
+        <p class="text-xs m-2 md:text-xl lg:text-3xl">@2025 Nostra.com</p>
+
+    </Footer>
+
+    <script src="collection.js"></script>
+
+</body>
+
+</html>
